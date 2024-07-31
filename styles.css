@@ -9,6 +9,7 @@
 body{
     font-family: "Inter", sans-serif;
     background: #000000;
+    color: white;
 }
 
 
@@ -220,6 +221,7 @@ nav>h2{
     font-size: 3rem;
     margin-bottom: 1rem;
 }
+
 .run-extra-des p{
     font-size: 0.9rem;
     margin-bottom: 2rem;
@@ -229,6 +231,83 @@ nav>h2{
     height: 312px;
     border-radius: 1rem;
 }
+.bmi-calculator-container{
+    max-width: 1090px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.title-bmi {
+    max-width: 50%;
+    margin: 0 auto;
+}
+.title-bmi h1{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 900px;
+    
+}
+.title-bmi p{
+    margin-bottom:120px ;
+}
+.bmi-parent{
+    background: rgba(135, 108, 108, 0.5);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bmi-chart table,tr,td,th{
+    border: rgba(255, 255, 255, 0.5) 1px solid ;
+    border-collapse: collapse;
+
+}
+.bmi-chart table{
+    height: 216px;
+    text-align: left;
+}
+.bmi-chart th{
+        font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+
+}
+.bmi-chart  td{
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.5);
+}
+.bmi-chart figcaption{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.bmi-calculator p{
+    font-size: 1rem;
+    color: rgb(255, 255, 255, 0.5);
+    margin-bottom: 1rem;
+}
+.input-fields{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+}
+.input-fields input,select{
+    border: none;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    background:rgba(161, 142, 142, 0.5);
+    color: #fff;
+    
+    
+    
+}
+#activity{
+    grid-column: span 2;
+}
+
 @media  only screen and ( max-width:576px ) {
     nav{
         justify-content: space-evenly;
@@ -307,6 +386,28 @@ nav>h2{
         margin-bottom: 20px;
     }
     
+
+    /* bmi calculator section-------- */
+
+    .bmi-calculator-container{
+        grid-template-columns: 1fr;
+    }
+
+
+    .bmi-calculator-container{
+        margin-left: 8px;
+        margin-right: 1rem;
+    }
+    .bmi-calculator p,h1 {
+        margin-bottom: 1rem;
+    }
+    .input-fields{
+        gap: 8px;
+    }
+    .input-fields input,select{
+        padding: 0.5rem 0rem;
+        width: 100%;
+    }
     
     
     
