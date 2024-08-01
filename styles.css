@@ -305,6 +305,7 @@ nav>h2{
     grid-template-columns: 1fr 1fr;
     gap: 16px;
     margin-top: 16px;
+    
 }
 .input-fields input,select{
     border: none;
@@ -404,7 +405,7 @@ footer{
     padding-bottom: 80px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-columns: 3fr 3fr;
     gap:120px;
 
 }
@@ -425,6 +426,12 @@ footer{
 .copyright p{
     font-size: 1.2rem;
     text-align: center;
+}
+.columns-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+
 }
 .footer-columns ul{
     list-style: none;
@@ -450,6 +457,72 @@ a{
     font-size: 1.1rem;
     margin-bottom: 1rem;
     color:rgba(244, 228, 228, 0.5) ;
+}
+
+@media only screen and (max-width:998px ){
+    nav>div{
+        width: 50%;
+    }
+    nav{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+
+    .banner-container{
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+    }
+    .banner-right{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .note-2{
+        bottom: 120px;
+    }
+    .habits-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .run-extra-container{
+        width: 90%;
+        margin: 0 auto;
+        gap: 50px;
+        margin-bottom: 100px;
+
+    }
+    .title-bmi{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .bmi-calculator-container{
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    .input-fields input, select{
+        padding: 1.2rem 2rem;
+    }
+    .tablet-btn{
+        width: 60%;
+        padding: 1.2rem 2.5rem;
+    }
+    .team-image-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer-container{
+        width: 90%;
+        margin: 0 auto;
+        gap: 50px;
+        grid-template-columns: 3fr;
+        
+    }
+    .copyright{
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 @media  only screen and ( max-width:576px ) {
     nav{
@@ -583,3 +656,5 @@ a{
     
     
 }
+
+
