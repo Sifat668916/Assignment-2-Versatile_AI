@@ -874,13 +874,13 @@ a{
         max-width: 90%;
         margin: 0 auto;
     }
-    .copyright p{
-        text-align: left;
-    }
+ 
     .columns-container {
         grid-template-columns: 1fr;
     }
-    
+    .copyright p{
+        text-align: center;
+    }
     
     
 }
