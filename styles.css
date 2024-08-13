@@ -426,7 +426,7 @@ nav>h2{
 
 }
 .color{
-    background: #e10808;
+    background: #fa4d02;
 }
 
 .why-us{
@@ -442,7 +442,7 @@ nav>h2{
 
 }
 .why-us h1{
-    color: #e10808;
+    color: #f65409;
 
 }
 .why-us p{
@@ -459,6 +459,8 @@ nav>h2{
     width: 100%;
     height: 100%;
     border-radius: 16px;
+    box-shadow: 2px 2px 10px 5px rgb(203, 69, 15);
+
 
 }
 .why-right h1{
@@ -482,7 +484,7 @@ nav>h2{
 
 }
 .colleft h3{
-    color: #e10808;
+    color: #ed4f0a;
     font-weight: 700;
 
 }
@@ -498,7 +500,12 @@ nav>h2{
 .fa-arrow-trend-up ,.fa-house-medical-circle-check{
     font-size: 40px;
     font-weight: 200;
-    color: white;
+    color: rgb(234, 162, 9);
+    background: rgb(84, 84, 83);
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 2px 2px 10px 5px rgb(231, 153, 8);
+
 
 }
 .why-right{
@@ -522,7 +529,7 @@ nav>h2{
     margin-top: 50px;
 }
 .color-blue{
-    background: #e10808;
+    background: #e14d08;
     width: 50%;
     margin: 0 auto;
 }
@@ -531,7 +538,7 @@ nav>h2{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background: #e10808;
+    background: #e13708;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -548,7 +555,7 @@ nav>h2{
     justify-content: center;
 }
 .success-txt h2{
-    color: #e10808;
+    color: #ef6509;
 }
 .success-txt{
     margin-top: 10px;
@@ -869,7 +876,7 @@ a{
     }
     .pending {
         width: 150px;
-        height: 120px;
+        /* height: 120px; */
     }
     
     .footer-container{
