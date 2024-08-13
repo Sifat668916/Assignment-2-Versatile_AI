@@ -863,6 +863,14 @@ a{
     .success-percent{
         position:relative
     }
+    .why-right img{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .pending {
+        width: 150px;
+        height: 120px;
+    }
     
     .footer-container{
         max-width: 90%;
